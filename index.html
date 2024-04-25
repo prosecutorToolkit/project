@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto de Aplicación</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#launch">Install</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h8>
+    <img src="logo_text.png" width="50%" height="20%">
+  </h8>
+  <h1>Prosecutor Toolkit</h1>
+  <section id="about" style="display: flex; justify-content: center; align-items: center; min-height: 20vh; margin-left: 20%; margin-right: 20%;">
+    <div style="background-color: #575757; padding: 20px; border-radius: 10px; text-align: justify; line-height: 1.5;">
+      <div style="text-align: center;"><h1>About</h1></div>
+      <p>Prosecutor Toolkit is a comprehensive program designed to assist in prosecution investigations. This software has a wide range of tools that facilitate the analysis of the information collected in the investigations.</p>
+      <p>The program originated from the need to analyze in a short period of time a large number of files extracted with Cellebrite UFED from the devices seized from a defendant in the "Declarant 1" case, at the Federal Prosecutor's Office No. 1 of La Plata.</p>
+      <p>Faced with this situation, a code was developed that efficiently traverses directories and collects relevant information using OCR algorithms (Deep folder scan functionality). Search results are presented in formats supported by different applications, such as CSV, XLSX, DOCX, and PDF.</p>
+      <p>In addition, the IP and URL scanning tool has been added to quickly obtain relevant information for computer investigations and multiple tools to download files and forensically extract its data. The application also has an antivirus function that detects malware and a screen scanner function that allows quick and efficient text extraction, useful for office work.</p>
+      <p>Prosecutor Toolkit can be of great help in investigations by the prosecutor, the police and the judge, saving valuable time for the investigator and contributing to the success of his task.</p>
+    </div>
+  </section>
+  
+  <section id="install" style="display: flex; justify-content: center; align-items: center; min-height: 20vh; margin-left: 20%; margin-right: 20%;">
+    <div style="background-color: #575757; padding: 20px; border-radius: 10px; text-align: center; line-height: 1.5;">
+      <h1>Install ⚙️</h1>
+      <p>*The app is currently disabled for downloads</p>
+      <p>git clone https://github.com/prosecutorToolkit/prosecutor.git</p>
+      <p>cd prosecutor</p>
+      <p>sudo apt install python3.10-venv python3-virtualenv scrot xclip</p> python3-tk tesseract-ocr libtesseract-dev -y
+      <p>virtualenv prosecutorenv</p>
+      <p>source prosecutorenv/bin/activate</p>
+      <p>pip3 install -r requirements.txt</p>
+      <p>python3 prosecutor.py</p>
+    </div>
+  </section>
+
+  <section id="launch" style="display: flex; justify-content: center; align-items: center; min-height: 20vh; margin-left: 20%; margin-right: 20%;">
+    <div style="background-color: #575757; padding: 20px; border-radius: 10px; text-align: center; line-height: 1.5;">
+      <h1>Launch ➡️</h1>
+      <p>cd prosecutor</p>
+      <p>source prosecutorenv/bin/activate</p>
+      <p>python3 prosecutor.py</p>
+    </div>
+  </section>
+
+  <section id="screenshots" style="display: flex; justify-content: center; align-items: center; min-height: 20vh; margin-left: 20%; margin-right: 20%;">
+    <div style="background-color: #575757; padding: 20px; border-radius: 10px; text-align: center; line-height: 1.5;">
+    <h2>Screenshots 📷</h2>
+    <div class="gallery">
+      <img src="screenshot_1.png">
+      <img src="screenshot_2.png">
+      <!-- Inserta aquí las imágenes de las screenshots -->
+    </div>
+    </div>
+  </section>
+  
+  <section id="download" style="display: flex; justify-content: center; align-items: center; min-height: 20vh; margin-left: 20%; margin-right: 20%;">
+    <div style="background-color: #575757; padding: 20px; border-radius: 10px; text-align: center; line-height: 1.5;">
+    <h2>Download the code ⬇️</h2>
+    <p>*The app is currently disabled for downloads</p>
+    <a href="https://github.com/prosecutorToolkit/prosecutor/archive/refs/heads/main.zip" class="button">Download App</a>
+    </div>
+  </section>
+
+  <section id="contact" style="display: flex; justify-content: center; align-items: center; min-height: 20vh;">  <div style="background-color: #575757; padding: 30px; border-radius: 10px; text-align: center; line-height: 1.5; width: 40%;">  <h2>Contact</h2>
+    <h3>tobiasrimoli@protonmail.com</h3>
+  </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2024. La Plata, Argentina. Prosecutor Tookit. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

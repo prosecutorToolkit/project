@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  background-color: #004980;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 200px;
+  margin: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Estilos específicos */
+
+form label, form input, form textarea, form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#nombre, #email {
+  text-align: center;
+  padding: 10px; /* Add some padding to create visual separation */
+  border: 1px solid #ccc; /* Add a border for better visual distinction */
+  width: 100%; /* Make the input field occupy the full width of its container */
+}
